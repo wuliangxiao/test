@@ -6,7 +6,7 @@ package com.echo.miaoshaship.response;
 public class CommonReturnType {
     //请求的返回结果 "success","fail"
     private String status;
-    //返回给前端的数据-test23
+    //返回给前端的数据-test123456
     private Object data;
 
     public String getStatus() {
