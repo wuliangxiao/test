@@ -24,7 +24,7 @@ import java.util.Random;
 
 @Controller("user")
 @RequestMapping("/user")
-//处理ajax中跨域请求的问题  origins="*" 表示所有的域名都可以访问
+//处理ajax中跨域请求的问题  origins="*" 表示所有的域名都可以访问123
 @CrossOrigin(origins = {"*"}, allowCredentials = "true")
 public class UserController extends BaseController {
     @Autowired
