@@ -104,6 +104,7 @@ public class UserController extends BaseController {
         //最大的取值
         int randomInt = random.nextInt(99999);
         randomInt += 10000;
+        //转字符串
         String optCode = String.valueOf(randomInt);
 
         //将手机号和opt进行绑定
